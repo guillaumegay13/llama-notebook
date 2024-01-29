@@ -1,0 +1,6 @@
+python -m pip install --upgrade pip
+pip install --root-user-action=ignore -q huggingface_hub
+pip install --root-user-action=ignore -q -U trl transformers accelerate peft
+pip install --root-user-action=ignore -q -U datasets bitsandbytes einops wandb
+pip install  --root-user-action=ignore -q ipywidgets
+pip install --root-user-action=ignore -q scipy
